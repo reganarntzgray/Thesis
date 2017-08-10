@@ -1,0 +1,20 @@
+"x"
+"(Intercept)" 2.43002212728359
+"Xnew_dynamictrend" 1.85244989394708
+"Xnew_dynamicgdd_season" 0.0105144227825914
+"Xnew_dynamichdd_season" -0.0395087893377979
+"Xnew_dynamicvpd_b_i" 0.110289939414216
+"Xnew_dynamicvpd_pol_i" -0.333379357218759
+"Xnew_dynamicvpd_e_i" 0.0273239171898114
+"Xnew_dynamicpcp_b_i" -0.00773822825206759
+"Xnew_dynamicpcp_pol_i" 0.0811170303999825
+"Xnew_dynamicpcp_e_i" 0.00527243890179747
+"Xnew_dynamicNW" 1.43750786050524
+"Xnew_dynamicNC" 2.99259530369002
+"Xnew_dynamicNE" 1.74606517795545
+"Xnew_dynamicWC" -0.512529942906731
+"Xnew_dynamicC" 3.35643899536193
+"Xnew_dynamicEC" -0.581391300081957
+"Xnew_dynamicSC" -1.12875556965677
+"Xnew_dynamicSE" 3.93552807688865
+"Xnew_dynamicpcp_pol_sp_d" -0.0889986300718158

@@ -1,0 +1,100 @@
+	NW	NC	NE	WC	C	EC	SC	SE	SW
+adair 	0	0	0	0	0	0	0	0	1
+ adams 	0	0	0	0	0	0	0	0	1
+allamakee 	0	0	1	0	0	0	0	0	0
+appanoose 	0	0	0	0	0	0	1	0	0
+audubon	0	0	0	1	0	0	0	0	0
+ benton 	0	0	0	0	0	1	0	0	0
+black hawk 	0	0	1	0	0	0	0	0	0
+boone  	0	0	0	0	1	0	0	0	0
+bremer 	0	0	1	0	0	0	0	0	0
+buchanan	0	0	1	0	0	0	0	0	0
+buena vista	1	0	0	0	0	0	0	0	0
+butler 	0	1	0	0	0	0	0	0	0
+calhoun	0	0	0	1	0	0	0	0	0
+carroll 	0	0	0	1	0	0	0	0	0
+ cass	0	0	0	0	0	0	0	0	1
+cedar	0	0	0	0	0	1	0	0	0
+cerro gordo	0	1	0	0	0	0	0	0	0
+cherokee 	1	0	0	0	0	0	0	0	0
+chickasaw  	0	0	1	0	0	0	0	0	0
+clarke 	0	0	0	0	0	0	1	0	0
+clay 	1	0	0	0	0	0	0	0	0
+clayton 	0	0	1	0	0	0	0	0	0
+clinton 	0	0	0	0	0	1	0	0	0
+crawford	0	0	0	1	0	0	0	0	0
+dallas 	0	0	0	0	1	0	0	0	0
+davis  	0	0	0	0	0	0	0	1	0
+decatur 	0	0	0	0	0	0	1	0	0
+delaware 	0	0	1	0	0	0	0	0	0
+des moines  	0	0	0	0	0	0	0	1	0
+ dickinson 	1	0	0	0	0	0	0	0	0
+ dubuque 	0	0	1	0	0	0	0	0	0
+ emmet  	1	0	0	0	0	0	0	0	0
+ fayette	0	0	1	0	0	0	0	0	0
+floyd 	0	1	0	0	0	0	0	0	0
+ franklin 	0	1	0	0	0	0	0	0	0
+fremont 	0	0	0	0	0	0	0	0	1
+   greene 	0	0	0	1	0	0	0	0	0
+ grundy 	0	0	0	0	1	0	0	0	0
+guthrie 	0	0	0	1	0	0	0	0	0
+  hamilton	0	0	0	0	1	0	0	0	0
+hancock	0	1	0	0	0	0	0	0	0
+hardin 	0	0	0	0	1	0	0	0	0
+harrison 	0	0	0	1	0	0	0	0	0
+henry	0	0	0	0	0	0	0	1	0
+howard 	0	0	1	0	0	0	0	0	0
+ humboldt 	0	1	0	0	0	0	0	0	0
+ida 	0	0	0	1	0	0	0	0	0
+iowa 	0	0	0	0	0	1	0	0	0
+jackson 	0	0	0	0	0	1	0	0	0
+jasper 	0	0	0	0	1	0	0	0	0
+jefferson 	0	0	0	0	0	0	0	1	0
+johnson	0	0	0	0	0	1	0	0	0
+jones 	0	0	0	0	0	1	0	0	0
+keokuk 	0	0	0	0	0	0	0	1	0
+kossuth	0	1	0	0	0	0	0	0	0
+lee 	0	0	0	0	0	0	0	1	0
+linn 	0	0	0	0	0	1	0	0	0
+louisa	0	0	0	0	0	0	0	1	0
+lucas   	0	0	0	0	0	0	1	0	0
+lyon   	1	0	0	0	0	0	0	0	0
+madison 	0	0	0	0	0	0	1	0	0
+ mahaska	0	0	0	0	0	0	0	1	0
+marion 	0	0	0	0	0	0	1	0	0
+marshall  	0	0	0	0	1	0	0	0	0
+mills  	0	0	0	0	0	0	0	0	1
+mitchell 	0	1	0	0	0	0	0	0	0
+monona 	0	0	0	1	0	0	0	0	0
+monroe	0	0	0	0	0	0	1	0	0
+montgomery	0	0	0	0	0	0	0	0	1
+muscatine 	0	0	0	0	0	1	0	0	0
+o brien	1	0	0	0	0	0	0	0	0
+osceola 	1	0	0	0	0	0	0	0	0
+page	0	0	0	0	0	0	0	0	1
+palo alto	1	0	0	0	0	0	0	0	0
+plymouth 	1	0	0	0	0	0	0	0	0
+pocahontas 	1	0	0	0	0	0	0	0	0
+polk 	0	0	0	0	1	0	0	0	0
+ pottawattamie	0	0	0	0	0	0	0	0	1
+poweshiek 	0	0	0	0	1	0	0	0	0
+ringgold  	0	0	0	0	0	0	1	0	0
+sac 	0	0	0	1	0	0	0	0	0
+scott 	0	0	0	0	0	1	0	0	0
+ shelby 	0	0	0	1	0	0	0	0	0
+sioux 	1	0	0	0	0	0	0	0	0
+story 	0	0	0	0	1	0	0	0	0
+tama 	0	0	0	0	1	0	0	0	0
+taylor 	0	0	0	0	0	0	0	0	1
+union 	0	0	0	0	0	0	1	0	0
+van buren 	0	0	0	0	0	0	0	1	0
+ wapello 	0	0	0	0	0	0	0	1	0
+warren 	0	0	0	0	0	0	1	0	0
+washington 	0	0	0	0	0	0	0	1	0
+wayne  	0	0	0	0	0	0	1	0	0
+webster 	0	0	0	0	1	0	0	0	0
+winnebago 	0	1	0	0	0	0	0	0	0
+ winneshiek 	0	0	1	0	0	0	0	0	0
+woodbury 	0	0	0	1	0	0	0	0	0
+worth 	0	1	0	0	0	0	0	0	0
+wright   	0	1	0	0	0	0	0	0	0
