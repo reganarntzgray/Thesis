@@ -1,0 +1,140 @@
+\documentclass[hidelinks,12pt]{report}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage[utf8]{inputenc}
+\usepackage{adjustbox}
+
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+
+
+\usepackage{float}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{listings}
+\lstset{
+    language=R,
+    basicstyle=\ttfamily
+}
+
+\lstset{frame=tb,
+  language=R,
+  breaklines=true,
+  showstringspaces=false
+}
+
+
+
+\usepackage{subcaption}
+
+
+\usepackage{setspace}% http://ctan.org/pkg/setspace
+% Already loaded by the apa6 documentclass...
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\AtBeginEnvironment{tabular}{\singlespacing}% Single spacing in tabular environment
+
+
+
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[authoryear,round]{natbib}
+
+\usepackage[singlelinecheck=false]{caption}
+
+\usepackage[pagestyles]{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+
+\makeatletter
+\newcommand*{\centerfloat}{%
+  \parindent \z@
+  \leftskip \z@ \@plus 1fil \@minus \textwidth
+  \rightskip\leftskip
+  \parfillskip \z@skip}
+\makeatother
+
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{mystyle}
+
+\usepackage{setspace}
+\doublespacing
+
+\usepackage{textcomp}
+
+\usepackage{hyperref}
+
+\vspace{-\baselineskip}
+\usepackage[english]{babel}
+
+\begin{document}
+
+\frontmatter
+\pagenumbering{roman}
+
+
+\input{Title}
+
+\input{Abstract}
+
+\input{Acknowledgements}
+
+
+\tableofcontents
+
+
+
+\pagebreak
+\listoffigures
+\pagebreak
+\listoftables
+
+ 
+\mainmatter
+
+\chapter{Article}
+\pagenumbering{arabic}
+\input{chapters/Article}
+
+\chapter{Introduction}
+ \pagenumbering{arabic}
+\input{chapters/Introduction}
+
+\chapter{Literature Review}
+\input{chapters/LiteratureReview}
+
+\chapter{Methods, Models and Data}
+\input{chapters/Methods}
+
+\chapter{Historical Data Modelling Results}
+\input{chapters/Results}
+
+\chapter{Simulation of Weather Data}
+\input{chapters/WeatherSim}
+
+\chapter{Simulation Results}
+\input{chapters/ResultsSim}
+
+
+\chapter{Conclusion}
+\input{chapters/Conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{mybib}
+
+\chapter{Appendix}
+\input{chapters/Appendix}
+
+
+
+
+
+
+\end{document}
