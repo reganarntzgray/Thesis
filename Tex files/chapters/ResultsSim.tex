@@ -1,0 +1,110 @@
+\section{Current Yield Estimates and Premia Rates}
+
+Current and future weather data were simulated for Ontario and Iowa respectively according to the method outlined in the previous chapter. The current weather data is assumed to be representative of years 2000-2013 in Iowa, and 2000-2014 in Ontario. The future weather data is assumed to be representative of years 2080-2099 in both Ontario and Iowa. Given both current and future simulated weather data, corresponding expected yields were generated according to both the static and dynamic models. The sample standard deviation of the regional or county level model error over the last 10 years of data was assumed to represent the non-weather related yield variance for that region or county under both current and future climate. A random error term with the estimated model error variance for a given region or county was added on to the expected yields, creating yield forecasts under both the static and dynamic models, and given both the current and future climate. Kernel density estimation was used to estimate the pdf underlying the yield forecasts in each case. These estimates were used to calculate the corresponding actuarially fair premium rates. The premium estimates resulting from the static versus the dynamic model could then be compared under two different climate scenarios. Assuming that the premium estimates resulting from the dynamic model yield forecasts are correct, the difference between the two sets of estimates will be equal to the bias introduced by assuming that the yield model is static. The summary statistics for the current climate yield estimates in each county, as well as the estimated premia rates, and the ratio of the static to the dynamic premium rates are shown in tables 8.19 to 8.22 in the appendix. 
+
+
+\subsection{Iowa -  Estimated Actuarially Fair Premia Rates given Current Climate Under both Static and Dynamic Assumption}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Dec 13, 2016 - 1:24:07 PM
+\begin{table}[!htbp] 
+  \caption{Iowa - Estimated Actuarially Fair Premia Rates given Current Climate Under both Static and Dynamic Assumption} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Statistic & premium$_{dynamic}$ & premium$_{static}$ & ratio \\ 
+\hline \\[-1.8ex] 
+Mean & 0.424 & 0.385 & 0.858 \\ 
+St. Dev. & 0.683 & 0.675 & 0.162 \\ 
+Min & 0.011 & 0.007 & 0.386 \\ 
+Max & 5.197 & 5.483 & 1.320 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+The paired t-test on the static and dynamic premium rate estimates shows that estimated rates are statistically different at the 99\% confidence level, leading to the assertion that the two premia calculations based on the static and dynamic models respectively do not yield equivalent results. Given that the mean ratio of the static to dynamic premium rate  estimates is 0.858, and that the static model premium rate estimate was lower than that generated with the dynamic model in 78 out of the 99 counties in Iowa, it appears that the static model underestimates the expected losses given current climate.
+
+
+\subsection{Ontario -   Estimated Actuarially Fair Premia Rates given Current Climate Under both Static and Dynamic Assumption}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, Dec 15, 2016 - 5:27:27 PM
+\begin{table}[!htbp] 
+  \caption{Ontario: Estimated Actuarially Fair Premia rates given current climate under both Static and Dynamic Assumption} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Statistic & premium\_dyn & premium\_stat & ratio \\ 
+\hline \\[-1.8ex] 
+Mean & 0.146 & 0.081 & 0.611 \\ 
+St. Dev. & 0.183 & 0.097 & 0.754 \\ 
+Min & 0.001 & 0.000 & 0.00000 \\ 
+Max & 0.775 & 0.392 & 4.033 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+The paired t-test performed on the vectors of static and dynamic premium rate estimates shows that they are statistically different at the 99\% confidence level. The estimated premium rates generated using the static model are statistically smaller than those estimated using the dynamic model. The static premium rate estimates were smaller than the corresponding dynamic premium rate estimates in 26 out of 32 counties.  As in Iowa this appears to be the result of the static model underestimating the expected losses given current climate.  
+
+\section{Expected Yield and premia rates Under Climate Change}
+
+\subsection{Iowa -  Estimated Actuarially Fair Premia Rates given Climate Change Under both Static and Dynamic Assumption}
+
+The actuarially fair premium rates were calculated based on the yields generated given future climate. The tables summarizing the yield distributions, and premia rates, generated with both the static and dynamic model, are included in tables 8.23 to 8.26 in the appendix.
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, Dec 15, 2016 - 5:39:15 PM
+\begin{table}[!htbp] 
+  \caption{Iowa -  Estimated Actuarially Fair Premia Rates given Climate Change Under both Static and Dynamic Assumption} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Statistic & premium\_dyn & premium\_stat & ratio \\ 
+\hline \\[-1.8ex] 
+Mean & 0.412 & 0.428 & 1.083 \\ 
+St. Dev. & 0.878 & 0.876 & 0.212 \\ 
+Min & 0.056 & 0.049 & 0.666 \\ 
+Max & 6.798 & 6.996 & 1.614 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+A one sided paired t-test on the static and dynamic premium rate estimates shows that they are statistically significantly different at the 90\% confidence level. Given that the mean ratio of the static to dynamic premium rate estimates is 1.083, and that the static model premium rate estimates were higher than those generated with the dynamic model in 68 out of the 99 counties in Iowa, it appears that the static model overestimates the expected losses under this future climate.
+
+
+
+\subsection{Ontario -  Estimated Actuarially Fair Premia Rates given Climate Change Under both Static and Dynamic Assumption}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, Dec 15, 2016 - 5:39:15 PM
+\begin{table}[!htbp]
+  \caption{Ontario -  Estimated Actuarially Fair Premia Rates given Climate Change Under both Static and Dynamic Assumption} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Statistic & premium\_dyn & premium\_stat & ratio \\ 
+\hline \\[-1.8ex] 
+Mean & 0.419 & 0.355 & 0.871 \\ 
+St. Dev. & 0.541 & 0.582 & 0.504 \\ 
+Min & 0.044 & 0.017 & 0.222 \\ 
+Max & 2.461 & 3.292 & 2.489 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table}
+
+
+The paired t-test performed on the vectors of static and dynamic premium rate estimates cannot reject the null hypothesis of equality of means. The mean of the estimated premium rates generated using the static model are generally smaller than those estimated using the dynamic model. The static model premium rate estimates were smaller than the dynamic model premium rate estimates in 21 out of 32 counties. 
+
+
+
+
+\section{Expected Yield with and without climate change assuming no technological change}
+
+The expected yields given the dynamic model, under both current and future climate, and given current agricultural technology, were compared to one another, in order to consider the potential impact of climate change on expected yield. The expected yields under the dynamic model are calculated given current simulated weather as well as given future simulated weather. Given that the rate of future technological advancement over the next 75 years in agriculture is not known, the trend variables are set at the level corresponding to 2013 in Iowa and 2014 in Ontario. The amount of non-weather related yield variance in the future is also unreasonable to forecast at this large of a distance in time. Therefore, the expected yields are calculated using the dynamic yield model with current and future simulated weather, given the current level of technological advancement, and without adding in an additional error term. The expected yields given future climate are calculated with future precipitation threshold levels. The variance of the expected yields will be smaller than the future yield variance, since only variance from weather as measured by the dynamic yield model is considered. The resulting county level yield samples under each climate were compared using a two sample t-test on the means, as well as a median centered Levine test (to test equality of variance). The p values resulting from these tests, as well as the summary statistics for the yield estimates in each county, are presented in tables 8.27 to 8.30 in the appendix, for both Iowa and Ontario. 
+ In Iowa, mean expected yields were statistically different given the current versus the future weather data in 68 of the 99 counties at the 99\% level, in 7 at the 95\% level, and in 3 at the 90\% level. Therefore, the mean yields were found to be statistically different, at or above the 90\% confidence level, in a total of 78 out of 99 counties. The variance was found to be statistically different in 57 counties at the 99\% level, in 18 at the 95\% level, and in 1 at the 90\% level, totalling 76 out of 99 counties. The actual difference between mean expected county level yields, with and without climate change, was -1.903, while the difference in standard deviation averaged at 1.112. 
+
+The results in Ontario appear to show a slightly more marked effect from climate change. The mean yields are found to be statistically different in 22 of the 32 counties at the 99\% confidence level, and in 4 at the 95\% confidence level, totalling 26 out of 32 which were significantly different at or above the 95\% confidence level. The variance is found to be statistically different at the 99\% confidence level in 16 counties, at the 95\% level in 4 counties, and at the 90\% level in one other county, while the remaining 11 counties are not determined to have statistically different variances. In Ontario, the actual difference in mean yields was more substantial than in Iowa. The average difference in county level mean expected yield under climate change was 4.031 while the difference in variance was 2.128. This suggests that yields will be slightly higher in Ontario, all else being equal, if climate were to change in the manner simulated in this thesis. However, increased weather related yield variance would also be expected. 
