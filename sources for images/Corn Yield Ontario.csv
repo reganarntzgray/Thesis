@@ -1,0 +1,78 @@
+"Table 001-0017 Estimated areas, yield, production, average farm price and total farm value of principal field crops, in imperial units, annual(1,30)",
+Survey or program details:,
+Field Crop Reporting Series - 3401,
+Geography,Ontario
+Harvest disposition,Average yield (bushels per acre)
+Type of crop,"Corn for grain (2,16)"
+1950,48.8
+1951,54.5
+1952,60
+1953,58.8
+1954,54.8
+1955,62.6
+1956,55.1
+1957,58.3
+1958,60.8
+1959,64.1
+1960,57.6
+1961,73.4
+1962,76.3
+1963,65.7
+1964,81.1
+1965,80.2
+1966,82.8
+1967,85
+1968,84.9
+1969,75.1
+1970,85
+1971,81
+1972,76
+1973,86
+1974,70
+1975,92
+1976,85.4
+1977,94.6
+1978,84
+1979,90
+1980,92.7
+1981,95
+1982,98.3
+1983,92.4
+1984,96.7
+1985,101.9
+1986,101.1
+1987,116.8
+1988,84.5
+1989,105
+1990,112
+1991,110.5
+1992,97.1
+1993,108.6
+1994,120.7
+1995,117.1
+1996,111.1
+1997,112.4
+1998,128.8
+1999,128.3
+2000,105.2
+2001,103.1
+2002,113.1
+2003,127
+2004,131.3
+2005,145
+2006,150.5
+2007,133.8
+2008,156.3
+2009,142.9
+2010,163.9
+2011,152
+2012,153.2
+2013,160.5
+Footnotes:,
+1,"Farm surveys collect data from Quebec, Ontario, Manitoba, Saskatchewan and Alberta at all five survey occasions during the crop year (which extends from the December to the following November occasion). However, data are collected twice a year (in the June Farm survey on seeded areas and in the November Farm survey on final crop production) for Newfoundland and Labrador, Prince Edward Island, Nova Scotia, New Brunswick and British Columbia, which represent between 2% and 4% of national totals. As of July 2014 for the Atlantic provinces and British Columbia, July and September production estimates are calculated using the final estimates of the last three crop years. The harvested area is first estimated based on the ratio obtained from the sum of harvested areas of the last three years over the sum of the seeded areas of the last three years. This average ratio is applied to their current year's reported seeded acreage from the June survey. This estimated harvested area is then multiplied by the average yield of the last three years to estimate production."
+2,For metric data see CANSIM table 001-0010.
+16,"Data were discontinued between 1932 and 1966 for Quebec. Data begin in 1941 for Manitoba, in 1979 for Alberta and in 1983 for Nova Scotia."
+30,Totals may not equal the sum of their parts due to the use of conversion factors or rounding of fractions to whole numbers.
+Source:,
+"Statistics Canada. Table 001-0017 - Estimated areas, yield, production, average farm price and total farm value of principal field crops, in imperial units, annual",
+"(accessed: June 12, 2016)",
